@@ -1,0 +1,84 @@
+
+/*Global styles
+---------------------------*/
+body{
+    background: rgb(224, 241, 247);
+}
+
+a{
+
+    color: #EF233C;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.list-details{
+    color: rgb(219, 223, 224);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*Header and footer
+---------------------------*/
+header, footer{
+    background: #2B2D42;
+    color: #8D99AE;
+}
+
+header h1, header h2{
+    color: #EDF2F4;
+    font-family: 'Muli', sans-serif;
+}
+
+
+/*Images styles
+---------------------------*/
+.pofile-image-resizing{
+    /*Porfile image style*/
+    max-width:50%;
+    height:auto;
+}
+
+
+/*Bio
+---------------------------*/
+
+
+
+
+
+/*Work Experince
+---------------------------*/
+#work-experince{
+    background: rgb(83, 169, 212);
+    font-family: 'Oswald', sans-serif;
+}
+
+#work-experince h2{
+
+    color: #EDF2F4;
+}
+#work-experince h4{
+
+    color: rgb(92, 93, 94);
+    line-height: 20%;
+}
+
+/*Education
+---------------------------*/
+#education{
+    background: rgb(83, 169, 212);
+    font-family: 'Oswald', sans-serif;
+    font-size: 5 px;
+    line-height: 20%;
+    color: rgb(92, 93, 94);
+}
+
+#education h2{
+
+    color: #EDF2F4;
+    font-size: 16 px;
+    line-height: 100%;
+    /*font-family: 'Ubuntu', sans-serif;*/
+}
