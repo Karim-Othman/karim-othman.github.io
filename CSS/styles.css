@@ -17,8 +17,19 @@ a:hover{
 .list-details{
     color: rgb(219, 223, 224);
     font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 10px;
 }
 
+.inline{
+
+    display: inline;
+}
+
+.period {
+
+    color: rgb(239, 185, 35);
+
+}
 /*Header and footer
 ---------------------------*/
 header, footer{
@@ -31,6 +42,9 @@ header h1, header h2{
     font-family: 'Muli', sans-serif;
 }
 
+header h1, h2, h3, p, a{
+    padding-left: 10px;
+}
 
 /*Images styles
 ---------------------------*/
@@ -58,8 +72,10 @@ header h1, header h2{
 #work-experince h2{
 
     color: #EDF2F4;
+    padding-top: 10px;
+    padding-left: 10px;
 }
-#work-experince h4{
+.role{
 
     color: rgb(92, 93, 94);
     line-height: 20%;
@@ -71,7 +87,7 @@ header h1, header h2{
     background: rgb(83, 169, 212);
     font-family: 'Oswald', sans-serif;
     font-size: 5 px;
-    line-height: 20%;
+    line-height: 0.7;
     color: rgb(92, 93, 94);
 }
 
@@ -80,5 +96,17 @@ header h1, header h2{
     color: #EDF2F4;
     font-size: 16 px;
     line-height: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
     /*font-family: 'Ubuntu', sans-serif;*/
+}
+
+#education h3 ,h4 ,h5{
+
+    padding-left: 20px;
+}
+
+#education h5{
+
+    padding-bottom: 20px;
 }
